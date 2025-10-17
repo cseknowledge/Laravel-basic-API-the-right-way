@@ -1,12 +1,10 @@
 <?php
 
-declare(strict_types=1);
-
 namespace App\Filters\Components;
 
 use Closure;
-use App\Constants\Role as RoleConstant;
 use Illuminate\Database\Eloquent\Builder;
+use App\Filters\Components\ComponentInterface;
 
 class Category implements ComponentInterface
 {

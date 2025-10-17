@@ -1,10 +1,9 @@
 <?php
 
-declare(strict_types=1);
-
 namespace App\Filters\Components;
 
 use Closure;
+use App\Filters\Components\ComponentInterface;
 
 class Active implements ComponentInterface
 {
