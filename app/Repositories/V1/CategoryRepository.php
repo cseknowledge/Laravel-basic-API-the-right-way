@@ -4,7 +4,7 @@ namespace App\Repositories\V1;
 
 use App\Contracts\V1\CategoryInterface;
 use App\DataTransferObjects\V1\CategoryDTO;
-use App\Filters\CategoryFilter;
+use App\Pipeline\Filters\CategoryFilter;
 use App\Models\Category;
 
 class CategoryRepository extends BaseRepository implements CategoryInterface

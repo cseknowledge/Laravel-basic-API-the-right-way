@@ -4,7 +4,7 @@ namespace App\Repositories\V1;
 
 use App\Contracts\V1\LocationInterface;
 use App\DataTransferObjects\V1\LocationDTO;
-use App\Filters\LocationFilter;
+use App\Pipeline\Filters\LocationFilter;
 use App\Models\Location;
 
 class LocationRepository extends BaseRepository implements LocationInterface

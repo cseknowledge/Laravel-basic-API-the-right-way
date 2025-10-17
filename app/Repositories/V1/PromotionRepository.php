@@ -4,7 +4,7 @@ namespace App\Repositories\V1;
 
 use App\Contracts\V1\PromotionInterface;
 use App\DataTransferObjects\V1\PromotionDTO;
-use App\Filters\PromotionFilter;
+use App\Pipeline\Filters\PromotionFilter;
 use App\Models\Promotion;
 
 class PromotionRepository extends BaseRepository implements PromotionInterface

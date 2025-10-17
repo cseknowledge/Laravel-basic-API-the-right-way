@@ -2,7 +2,7 @@
 
 namespace App\Traits;
 
-use App\Filters\Components\Location;
+use App\Models\Location;
 use App\Models\Category;
 use App\Models\Promotion;
 use App\Repositories\V1\CategoryRepository;
